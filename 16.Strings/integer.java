@@ -1,0 +1,6 @@
+/**
+ * integer
+ */
+public class integer {
+
+}
