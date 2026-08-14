@@ -49,63 +49,63 @@ public class ArrayCC {
    }
 
    public static void main(String[] args) {
-     // Performing input output operations   
-    // int marks[] = new int[50];
-    //     Scanner sc = new Scanner(System.in);
-    //     marks[0] = sc.nextInt();
-    //     marks[1] = sc.nextInt();
-    //     marks[2] = sc.nextInt();
-    //     System.out.println("phy:" + marks[0]);
-    //     System.out.println("math:" + marks[1]);
-    //     System.out.println("chem:" + marks[2]);
+   // //   Performing input output operations   
+   //  int marks[] = new int[50];
+   //      Scanner sc = new Scanner(System.in);
+   //      marks[0] = sc.nextInt();
+   //      marks[1] = sc.nextInt();
+   //      marks[2] = sc.nextInt();
+   //      System.out.println("phy:" + marks[0]);
+   //      System.out.println("math:" + marks[1]);
+   //      System.out.println("chem:" + marks[2]);
 
-     // //correcting the marks
-    //     marks[2] = marks[2] + 4;
-    //     System.out.println("chem:" + marks[2]);
-    //     //percentage
-    //     int percentage = marks[0] + marks[1] + marks[2] / 3 ;
-    //     System.out.println("percentage :" + percentage);
+   // //   //correcting the marks
+   //      marks[2] = marks[2] + 4;
+   //      System.out.println("chem:" + marks[2]);
+   //      //percentage
+   //      int percentage = (marks[0] + marks[1] + marks[2]) / 3   ;
+   //      System.out.println("percentage :" + percentage);
         
  
-   //Passing Array by References
-//      int marks[] = {69 , 82, 98} ;
-//      int isnonchangable = 6;
-//    updating(marks , isnonchangable);
-//     System.out.println(isnonchangable);
-//      for(int i = 0; i<marks.length; i++){
-//         System.out.println("marks:" + marks[i]);
-//      }
-//     //  System.out.println(Arrays.toString(marks));
-//      System.out.println();
+   // // Passing Array by References
+   //   int marks[] = {69 , 82, 98} ;
+   //   int isnonchangable = 6;
+   // updating(marks , isnonchangable);
+   //  System.out.println(isnonchangable);
+   //   for(int i = 0; i<marks.length; i++){
+   //      System.out.println("marks:" + marks[i]);
+   //   }
+   //   System.out.println(Arrays.toString(marks));
+   //   System.out.println();
 
 
 
 
 
-    //lenear search in array
+   //  lenear search in array
       
-    // int number[] = { 1 , 2 , 5 , 10 , 12 , 16 , 19 , 20 };
-         // String fruits [] = {  "graps" , "Mango" , "Banana" , "peru" ,"Dragon-fruit" , "chiku" };
-         // String tofind = "Dragon-fruit" ;
-         // int key = 10 ;
-         // int index = lenear_Search(number, key , fruits , tofind);
-         // if (index == -1) {
-         //    System.out.println("Key NOT Found !!");
-         // } else{
-         //    System.out.println("Key is found on index :" + index);
-         // }
+    int number[] = { 1 , 2 , 5 , 10 , 12 , 16 , 19 , 20 };
+         String fruits [] = {  "graps" , "Mango" , "Banana" , "peru" ,"Dragon-fruit" , "chiku" };
+         String tofind = "Dragon-fruit" ;
+         int key = 10 ;
+         int index = lenear_Search(number, key , fruits , tofind);
+         if (index == -1) {
+            System.out.println("Key NOT Found !!");
+         } else{
+            System.out.println("Key is found on index :" + index);
+         }
 
-    // // Linear search for string in fruits array
-         // int fruitIndex = linearSearchString(fruits, tofind);
-         // if (fruitIndex == -1) {
-         //    System.out.println("Fruit NOT Found !!");
-         // } else {
-         //    System.out.println("Fruit '" + tofind + "' found at index: " + fruitIndex);
-         // }
+   //  // Linear search for string in fruits array
+         int fruitIndex = linearSearchString(fruits, tofind);
+         if (fruitIndex == -1) {
+            System.out.println("Fruit NOT Found !!");
+         } else {
+            System.out.println("Fruit '" + tofind + "' found at index: " + fruitIndex);
+         }
 
       //finding largest number in array
-           int number[] = { 1 , 2 , 5 , 10 , 12 , 16 , 19 , 20 };
-             System.out.println(  Largest_num(number)  );
+           int number1[] = { 1 , 2 , 5 , 10 , 12 , 16 , 19 , 20 };
+             System.out.println(  Largest_num(number1)  );
              
    }
 }

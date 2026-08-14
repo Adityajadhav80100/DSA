@@ -13,7 +13,7 @@ public class binarySearch {
             return mid ;
           }
           
-          if (number[mid]<Key) {//right
+          if (number[mid]<Key) { //right
             start = mid + 1;
           } else  { //Left side
             end = mid -1 ;
