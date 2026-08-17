@@ -230,3 +230,5 @@ class Rook implements ChessPlayer {
         System.out.println("Rook can move in straight lines");
     }
 }
+
+// Static 
